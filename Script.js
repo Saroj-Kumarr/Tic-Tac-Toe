@@ -28,7 +28,7 @@ cells.forEach((cell, index) => {
         //Update the message if the game is over
         messageElement.innerHTML = "Draw📍";
       } else {
-        currentPlayer = currentPlayer === "X" ? "0" : "X";
+        currentPlayer = currentPlayer === "X" ? "O" : "X";
         messageElement.innerHTML = currentPlayer + " 's turn";
       }
     }
