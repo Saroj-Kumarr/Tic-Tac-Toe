@@ -10,9 +10,9 @@
 
 h1 {
   /* text-shadow: 3px 3px 0px rgba(255, 255, 255, 1),5px 4px 0px rgba(0, 0, 0, 0.15); */
-  color: #17A589;
+  color: darkblue;
   width: 200px;
-  /* background-color: #5e7783; */
+  background-color: #5D6D7E;
   border-radius: 20px;
   text-align: center;
   padding: 5px;
