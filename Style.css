@@ -1,23 +1,26 @@
 #bdy {
-  background-color: #283747;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: #d6dbdf;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: bolder;
 }
 
 h1 {
   /* text-shadow: 3px 3px 0px rgba(255, 255, 255, 1),5px 4px 0px rgba(0, 0, 0, 0.15); */
-  color: darkblue;
+  color: #17a589;
   width: 200px;
-  background-color: #5D6D7E;
+  background-color: #5d6d7e;
   border-radius: 20px;
   text-align: center;
-  padding: 5px;
+  padding: 8px;
   border: 3px solid #f0f0f0;
   margin-bottom: 15px;
+  font-family: bolder;
+  font-size: 30px;
 }
 
 #game-container {
@@ -25,7 +28,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #5D6D7E ;
+  background-color: #5d6d7e;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   padding: 12px;
   border-radius: 50px;
@@ -40,7 +43,7 @@ h1 {
 .cell {
   width: 100px;
   height: 100px;
-  background-color: #AEB6BF;
+  background-color: #aeb6bf;
   border: 3px solid #f0f0f0;
   font-size: 4rem;
   text-align: center;
@@ -62,28 +65,11 @@ h1 {
 }
 
 .cell.x {
-  color:#17A589;
+  color: #17a589;
 }
 
 .cell.o {
-  color: #3498DB;
-}
-
-.bn30 {
-  border: 5em;
-  cursor: pointer;
-  outline: none;
-  font-size: 16px;
-  -webkit-transform: translate(0);
-  transform: translate(0);
-  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
-  padding: 0.7em 2em;
-  border-radius: 65px;
-  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
-  -webkit-transition: box-shadow 0.25s;
-  transition: box-shadow 0.25s;
-  color: white;
-  margin-top: 15px;
+  color: #3498db;
 }
 
 .bn30 .text {
@@ -93,31 +79,8 @@ h1 {
   background-image: linear-gradient(45deg, #4568dc, #b06ab3);
 }
 
-.bn30:after {
-  content: "";
-  border-radius: 18px;
-  position: absolute;
-  margin: 4px;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  background: #0e0e10;
-}
-
-.bn30:hover {
-  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
-  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
-}
-
-.bn30:hover .text {
-  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
-}
-
 #message {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: black;
   border-radius: 18px;
   margin-top: -5px;
   font-size: 22px;
@@ -131,8 +94,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+  color: #3498db;
+  letter-spacing: 1px;
 }
-
 
 @media screen and (max-width: 412px) {
   h1 {
@@ -148,13 +113,13 @@ h1 {
     width: 90px;
     height: 90px;
   }
-  
-.cell:hover {
-  background-color:#6a1b9a;
-}
-#message{
-height: 20px;
-  width: 80px;
-  font-size:18px;
-}
+
+  .cell:hover {
+    background-color: #6a1b9a;
+  }
+  #message {
+    height: 20px;
+    width: 80px;
+    font-size: 18px;
+  }
 }

@@ -43,7 +43,7 @@ resetButton.addEventListener("click", () => {
     cell.innerHTML = "";
   });
 
-  messageElement.innerHTML = "X's turn";
+  messageElement.innerHTML = "X's Turn";
   cells.forEach((cell) => cell.addEventListener("click", handleCellClick));
 });
 
